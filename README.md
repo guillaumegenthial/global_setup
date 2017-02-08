@@ -20,8 +20,9 @@ chsh -s $(which zsh)
 ```
 
 Install oh-my-zsh
+```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
+```
 
 Edit path variable conf that you may have defined in .bashrc or .profile or .bash_profile in .zshrc
 ```
@@ -90,4 +91,4 @@ Host corn
 
 ## tmux
 
-Download .tmux.conf and move it into ~/.vimrc
+Download .tmux.conf and move it into ~/.tmux.conf
