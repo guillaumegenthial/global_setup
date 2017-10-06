@@ -1,0 +1,39 @@
+" plugin manager
+execute pathogen#infect()
+
+" escape insert mode with j and k
+inoremap jk <ESC>
+
+" basic settings
+filetype indent plugin on
+syntax on
+
+" encoding for compatibility
+set encoding=utf-8
+set fenc=utf-8
+set termencoding=utf-8
+
+" option 2 to use backspace to delete words in edit mode
+set backspace=2
+
+" indentation
+set autoindent
+set tabstop=4  " tab width is 4 spaces
+set expandtab  " expand tabs to spaces
+set softtabstop=4
+set shiftwidth=4 " indent also with 4 spaces
+
+"Python settings
+let python_highlight_all=1
+
+" turn line number on
+set number
+
+" Highlight search pattern where found
+set hlsearch
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>
+
+" theme
+set background=dark
+colorscheme solarized
