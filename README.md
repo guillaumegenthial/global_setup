@@ -1,13 +1,6 @@
 # Configuration
 
 
-## Install vim with YCM Vundle and Awesome
-
-```
-sh install.sh
-```
-
-other useful to setup a config
 ## Remap CAPSLOCK to Ctrl (in OS settings)
 
 ## Install Brew
@@ -35,7 +28,7 @@ bindkey -M viins ‘jk’ vi-cmd-mode
 
 ## Vim
 
-Simple config
+Simple config with Autocompletion and Awesome Theme
 
 ```
 sh install.sh
@@ -58,7 +51,3 @@ Host corn
  user userid
 
 ```
-
-## tmux
-
-Download .tmux.conf and move it into ~/.tmux.conf
