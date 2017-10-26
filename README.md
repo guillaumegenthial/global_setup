@@ -1,5 +1,13 @@
 # Configuration
 
+
+## Install vim with YCM Vundle and Awesome
+
+```
+sh install.sh
+```
+
+other useful to setup a config
 ## Remap CAPSLOCK to Ctrl (in OS settings)
 
 ## Install Brew
