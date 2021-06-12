@@ -1,0 +1,36 @@
+// SublimeLinter Settings - User
+{
+	"linters": {
+        "flake8": {
+            "disable": false,
+            "args": [
+                    "--max-line-length=120",
+                ]
+        },
+        "pylint": {
+            "disable": false,
+            "args": [
+                    "--max-line-length=120",
+            ]
+        },
+        "pycodestyle": {
+        	"disable": false,
+            "args": [
+                    "--max-line-length=120",
+            ]
+        },
+        "pyflakes": {
+            "disable": false,
+            "args": [
+                    "--max-line-length=120",
+            ]
+        }
+    },
+    "paths": {
+        "linux": [],
+        "osx": [
+            "~/envs/sublime/bin"
+        ],
+        "windows": []
+    }
+}

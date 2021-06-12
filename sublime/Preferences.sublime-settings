@@ -1,0 +1,55 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python",
+		}
+	],
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		".coverage"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".pytest_cache",
+		"*.egg-info",
+		".mypy_cache",
+		"__pycache__",
+		"mlruns"
+	],
+	"rulers":
+	[
+		72,
+		79,
+		120
+	],
+	"spell_check": true,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+}

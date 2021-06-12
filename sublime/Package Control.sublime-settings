@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"AutoDocstring",
+		"Git blame",
+		"jsonnet syntax",
+		"MarkdownPreview",
+		"MarkdownTOC",
+		"Package Control",
+		"Pretty JSON",
+		"Sort Lines By Selection",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-pycodestyle",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-pylint",
+		"Wrap Plus"
+	],
+}
