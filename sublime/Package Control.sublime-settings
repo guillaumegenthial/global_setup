@@ -9,6 +9,7 @@
 		"AutoDocstring",
 		"Git",
 		"Git blame",
+		"GitGutter",
 		"jsonnet syntax",
 		"MarkdownPreview",
 		"MarkdownTOC",
