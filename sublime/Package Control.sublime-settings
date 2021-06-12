@@ -7,6 +7,7 @@
 	[
 		"Anaconda",
 		"AutoDocstring",
+		"Git",
 		"Git blame",
 		"jsonnet syntax",
 		"MarkdownPreview",
@@ -19,6 +20,6 @@
 		"SublimeLinter-pycodestyle",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-pylint",
-		"Wrap Plus"
+		"Wrap Plus",
 	],
 }

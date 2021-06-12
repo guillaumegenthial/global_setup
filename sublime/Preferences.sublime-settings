@@ -51,5 +51,10 @@
 	],
 	"spell_check": true,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": "all",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_size": 14,
 }
