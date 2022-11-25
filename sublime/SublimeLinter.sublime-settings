@@ -40,7 +40,7 @@
         [],
         "osx":
         [
-            "~/envs/sublime/bin"
+            "/opt/homebrew/Caskroom/miniforge/base/envs/sublime/bin"
         ],
         "windows":
         []

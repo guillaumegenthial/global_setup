@@ -97,7 +97,7 @@
 
             "python_interpreter": "tcp://my_remote.machine.com:19360"
     */
-    "python_interpreter": "python",
+    "python_interpreter": "/opt/homebrew/Caskroom/miniforge/base/envs/sublime/bin/python",
 
     /*
         Disable anaconda completion
