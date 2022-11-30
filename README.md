@@ -33,6 +33,12 @@ Default `pylint` configuration (Python linter)
 cp pylintrc ~/.pylintrc
 ```
 
+You can also generate a fresh global configuration file with
+
+```bash
+pylint --generate-rcfile > ${HOME}/.pylintrc
+```
+
 ## Vim
 
 ```bash
@@ -69,6 +75,8 @@ Contains (to install via the package manager, `cmd+shift+p`)
 - MarkdownTOC
 - Pretty JSON
 - SublimeLinter
+- WrapPlus
+- Python-black
 
 Typically located on MacOS at
 

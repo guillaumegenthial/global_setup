@@ -1,14 +1,23 @@
 [
-  {
-    "command": "auto_docstring",
-    "keys": [
-      "super+shift+k"
-    ]
-  },
-  {
-    "command": "auto_docstring_all",
-    "keys": [
-      "super+alt+shift+'"
-    ]
-  }
+    {
+        "command": "auto_docstring",
+        "keys":
+        [
+            "super+shift+k"
+        ]
+    },
+    {
+        "command": "auto_docstring_all",
+        "keys":
+        [
+            "super+alt+shift+'"
+        ]
+    },
+    {
+        "command": "black",
+        "keys":
+        [
+            "ctrl+b"
+        ]
+    }
 ]

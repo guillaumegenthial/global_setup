@@ -15,6 +15,7 @@
 		"MarkdownTOC",
 		"Package Control",
 		"Pretty JSON",
+		"python-black",
 		"Sort Lines By Selection",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
