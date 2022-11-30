@@ -8,6 +8,14 @@ Install brew (https://brew.sh).
 brew install zsh miniforge poetry node Cmake protobuf rust
 ```
 
+Install git, configure `~/.gitconfig` with your username
+
+```txt
+[user]
+    name = ...
+    email = ...
+```
+
 ## Python
 
 Create python environments with miniforge
