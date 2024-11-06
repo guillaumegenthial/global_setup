@@ -1,0 +1,132 @@
+{
+  "workbench.colorTheme": "Mariana",
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.inheritEnv": false,
+  "files.exclude": {
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "**/.egg-info": true,
+    "**/.mypy_cache": true,
+    "**/__pycache__": true
+  },
+  "editor.scrollBeyondLastLine": false,
+  "errorLens.delay": 500,
+  "errorLens.delayMode": "debounce",
+  "errorLens.messageBackgroundMode": "message",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "Menlo, Monaco,monospace,'Courier New'",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 17,
+  "editor.letterSpacing": -0.2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.tokenColorCustomizations": {
+    "[Mariana]": {
+      "textMateRules": [
+        {
+          "name": "constant caps",
+          "scope": "constant.other.caps.python",
+          "settings": {
+            "foreground": "#D8DEE9"
+          }
+        },
+        {
+          "name": "constant caps",
+          "scope": "meta.template.expression.tsx",
+          "settings": {
+            "foreground": "#D8DEE9"
+          }
+        }
+      ]
+    }
+  },
+  "cSpell.userWords": [
+    "ASGI",
+    "assigneddate",
+    "astext",
+    "autoload",
+    "autouse",
+    "awsconfig",
+    "barkoffice",
+    "businesstimedelta",
+    "casestatus",
+    "cognitos",
+    "createdate",
+    "dalma",
+    "dateparser",
+    "datetime",
+    "dealname",
+    "dealstage",
+    "dealtype",
+    "dedupe",
+    "digestmod",
+    "dotenv",
+    "hookform",
+    "httpx",
+    "hubspot",
+    "iife",
+    "isodow",
+    "isoparse",
+    "joinedload",
+    "jsonlogger",
+    "lastmodifieddate",
+    "Lemonway",
+    "levelname",
+    "lucide",
+    "meltano",
+    "ondelete",
+    "onfragment",
+    "onupdate",
+    "plainto",
+    "PLASMO",
+    "poolclass",
+    "posthog",
+    "primaryjoin",
+    "pydantic",
+    "pydash",
+    "pytz",
+    "regconfig",
+    "rrweb",
+    "secondaryjoin",
+    "shadcn",
+    "sonner",
+    "sqlalchemy",
+    "tailwindcss",
+    "tanstack",
+    "templating",
+    "timespec",
+    "tsquery",
+    "tsvector",
+    "uids",
+    "upserted",
+    "upserts",
+    "uuidv",
+    "vectorizer",
+    "webextension",
+    "webservice"
+  ],
+  "explorer.autoReveal": false,
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "cSpell.customDictionaries": {},
+  "javascript.suggest.autoImports": false,
+  "files.associations": {
+    ".env.production": "properties",
+    ".env.development": "properties",
+    ".env.example": "properties"
+  },
+  "vsicons.presets.jsOfficial": true,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+}
