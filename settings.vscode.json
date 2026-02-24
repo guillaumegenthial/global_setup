@@ -1,56 +1,101 @@
 {
-  "editor.rulers": [72, 79, 119],
-  "editor.defaultFormatter": "biomejs.biome",
-  "editor.formatOnSave": false,
-  "emmet.showExpandedAbbreviation": "never",
-  "files.eol": "auto",
-  "files.exclude": {
-    "**/__pycache__": true,
-    "**/*.egg-info": true,
-    "**/.mypy_cache": true,
-    "**/.pytest_cache": true,
-    "**/.ruff_cache": true,
-    "**/*.js.map": true,
-    "**/*.min.js": true,
-    "**/*.pyc": true,
-    "**/node_modules": true
-  },
-  "search.exclude": {
-    "**/.yarn": true
-  },
-  "typescript.preferences.autoImportSpecifierExcludeRegexes": [
-    "@radix-ui",
-    "^lucide-react/dist/lucide-react.suffixed$",
-    "react-day-picker",
-    "process",
-    "console",
-    "inspector"
-  ],
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc][css][graphql]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.defaultFormatter": "biomejs.biome",
-    "editor.codeActionsOnSave": {
-      "source.addMissingImports": "always",
-      "source.fixAll.biome": "explicit",
-      "source.organizeImports.biome": "explicit"
-    }
-  },
-  "[python]": {
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4,
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit",
-      "source.organizeImports": "explicit",
-      "source.addMissingImports": "always"
-    }
-  },
-  "python.globalModuleInstallation": true,
-  "cSpell.ignoreRegExpList": ["/from.*/", "/import.*/"],
-  "makefile.configureOnOpen": false,
-  "[sql]": {
-    "editor.defaultFormatter": "mtxr.sqltools"
-  }
+	"workbench.activityBar.location": "top",
+	"workbench.colorTheme": "Mariana",
+	"workbench.iconTheme": "vscode-icons",
+	"terminal.integrated.inheritEnv": false,
+	"files.exclude": {
+		"**/.pytest_cache": true,
+		"**/.ruff_cache": true,
+		"**/.egg-info": true,
+		"**/.mypy_cache": true,
+		"**/__pycache__": true
+	},
+	"editor.scrollBeyondLastLine": false,
+	"errorLens.delay": 500,
+	"errorLens.delayMode": "debounce",
+	"errorLens.messageBackgroundMode": "message",
+	"editor.rulers": [72, 79, 119],
+	"editor.fontFamily": "Menlo, Monaco,monospace,'Courier New'",
+	"editor.fontSize": 14,
+	"editor.lineHeight": 17,
+	"editor.letterSpacing": -0.2,
+	"editor.renderLineHighlight": "gutter",
+	"editor.tokenColorCustomizations": {
+		"[Mariana]": {
+			"textMateRules": [
+				{
+					"name": "constant caps",
+					"scope": "constant.other.caps.python",
+					"settings": {
+						"foreground": "#D8DEE9"
+					}
+				},
+				{
+					"name": "constant caps",
+					"scope": "meta.template.expression.tsx",
+					"settings": {
+						"foreground": "#D8DEE9"
+					}
+				}
+			]
+		}
+	},
+	"cSpell.customDictionaries": {},
+	"explorer.autoReveal": false,
+	"explorer.confirmDelete": false,
+	"extensions.ignoreRecommendations": true,
+	"files.associations": {
+		".env.production": "properties",
+		".env.development": "properties",
+		".env.example": "properties"
+	},
+	"vsicons.presets.jsOfficial": true,
+	"gitlens.codeLens.recentChange.enabled": false,
+	"gitlens.currentLine.pullRequests.enabled": false,
+	"gitlens.currentLine.enabled": false,
+	"gitlens.codeLens.enabled": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.accessibilitySupport": "off",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"security.workspace.trust.untrustedFiles": "open",
+	"python.autoComplete.extraPaths": [],
+	"vsicons.dontShowNewVersionMessage": true,
+	"git.openRepositoryInParentFolders": "never",
+	"notebook.output.scrolling": true,
+	"json.schemaDownload.enable": true,
+	"[javascript][typescript][javascriptreact][typescriptreact][json][jsonc][css][graphql]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.codeActionsOnSave": {
+			"source.addMissingImports": "always",
+			"source.fixAll.biome": "explicit",
+			"source.organizeImports.biome": "explicit"
+		}
+	},
+	"[python]": {
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4,
+		"editor.defaultFormatter": "charliermarsh.ruff",
+		"editor.codeActionsOnSave": {
+			"source.fixAll": "explicit",
+			"source.organizeImports": "explicit",
+			"source.addMissingImports": "always"
+		}
+	},
+	"[sql]": {
+		"editor.defaultFormatter": "mtxr.sqltools"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"cursor.cpp.disabledLanguages": [
+		"plaintext"
+	],
+	"window.confirmSaveUntitledWorkspace": false,
+	"editor.dropIntoEditor.preferences": [
+		
+	]
 }
